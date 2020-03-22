@@ -29,6 +29,8 @@ body {
   background-color: var(--siena);
 }
 
+/* header classes */
+
 .header {
   padding: 50px;
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
@@ -79,6 +81,24 @@ p {
   font-size: 20px;
 }
 
+  header nav {
+    float: left;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--beige)
+  }
+
+  /* hero classes */
+
 .hero {
   height: 400px;
   width: 100%;
@@ -87,6 +107,7 @@ p {
   background-size: cover;
   background-position: center;
   }
+
 
 .float-left {
   float: left;
@@ -97,6 +118,8 @@ p {
   float: right;
   margin-left: 25px;
 }
+
+ /* content  classes */
 
 .content {
   height: 300px;
@@ -176,6 +199,8 @@ p {
 
 }
 
+ /* footer  classes */
+ 
 .footer {
   padding: 30px;
   clear: both;
@@ -186,6 +211,6 @@ p {
 
 .footer h2 {
   margin-top: 200px;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--beige);
 }

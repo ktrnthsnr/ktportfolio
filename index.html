@@ -7,30 +7,56 @@
 </head>
 
 <body>
-    <!-- begin header -->
-    <div class="header">
-        <h1><span class="mainheader">Katarina Thisner's Portfolio</span></h1>
-    </div>
+      
+<!-- begin header -->
+    <header>
+        <!--
+        <h1>
+            <a href="/">Katarina Thisner's Portfolio</a>
+        </h1>       
+        -->
+
+        <div class="header">
+            <h1><span class="mainheader">Katarina Thisner's Portfolio</span></h1> 
+        </div> 
+        <!-- nav bar -->
+        <nav>
+            <!-- Unordered list element -->
+            <ul>
+                <!-- List item element -->
+                <li>
+                    <!-- Anchor element -->
+                    <a href="#About-Me">About Me</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact-Me">Contact-Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <!-- end header -->
 
-    <!-- begin hero -->
+    <!-- hero class -->
     <div class="hero"></div>
 
     <!-- class content -->
     <div class="content">
 
         <!-- class About-Me -->
-        <div id="About-Me" class="About-Me">
+        <section id="About-Me" class="About-Me">
             <h2 class="left-header">About Me</h2>
             <div>
             <p>
                 Enjoying the northwest, staying close to nature, and finding joy in tech work, I moved to Seattle many years ago. I've worked as an applications engineer after graduating, focusing on Azure cloud services and legacy migrations.
             </p>
             </div>
-        </div>
+        </section>
       
         <!-- class Work -->
-        <div id="Work" class="Work">
+        <section id="Work" class="Work">
             <img src="./assets/images/streetview.jpg" class="float-right" alt="Work" />
             <h2 class="left-header">Work</h2>
                 <div>
@@ -38,16 +64,16 @@
                     Supporting Azure cloud services and Windows based enterprise applications and online websites, I specialize in web app and virtual machine environment setups, maintenance and monitoring, and on-premises legacy migrations.
                     </p>
                 </div>
-        </div>
+        </section>
        
         <!-- class Contact-Me -->
-        <div id="Contact-Me" class="Contact-Me">
+        <section id="Contact-Me" class="Contact-Me">
             
             <img src="./assets/images/KT.PNG" class="float-right" alt="Contact-Me" />
             
             <h2 class="left-header">Contact Me</h2>
             
-            <div>
+            <div id="wrapper">
                 <!-- Unordered list element -->
                <ul>
                    <!-- anchor elements and listed item elements  -->
@@ -62,17 +88,14 @@
                     </li>
                 </ul>
            </div>
-        </div>
+        </section>
 
     </div>
 
     
     <!-- footer  -->
     <div class="footer">
-        <h2>Made by ktrnthsnr</h2>
-        <p>
-            &copy; 2020 ktrnthsnr
-        </p>
+        <h2>&copy; 2020 ktrnthsnr</h2>
     </div>
     <!-- end footer -->
 
