@@ -38,3 +38,8 @@
    20  git commit -m "added nav"
    21  git push origin master
    22  history >>history.log
+    1  git remote -v
+    2  git add .
+    3  git commit -m "added list pseudo-elements"
+    4  git push origin master
+    5  history >> history.log
