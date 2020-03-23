@@ -16,3 +16,25 @@
    16  git commit -m "added readme"
    17  git push origin master
    18  history > history.log
+    1  ls
+    2  pwd
+    3  ls
+    4  git init
+    5  git status
+    6  git commit -m "first draft index.html and css"
+    7  git commit -m "added gitignore"
+    8  git add .
+    9  git commit -m "first draft html and css"
+   10  git remote add origin git@github.com:ktrnthsnr/ktportfolio.git
+   11  git remote -v
+   12  get branch
+   13  git branch
+   14  git push origin master
+   15  git add .
+   16  git commit -m "added readme"
+   17  git push origin master
+   18  history > history.log
+   19  git add .
+   20  git commit -m "added nav"
+   21  git push origin master
+   22  history >>history.log
