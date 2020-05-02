@@ -1,16 +1,20 @@
 ﻿# Katarina Thisner's Portfolio
 
 ## Description
-To provide a brief look of her sample websites and contact info.
+Portfolio with sample projects
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://ktrnthsnr.github.io/ktportfolio
+* https://ktrnthsnr.github.io/ktportfolio
+* https://github.com/ktrnthsnr/ktportfolio
 
 ## Contribution
 ktrnthsnr
 
 ### ©️2020 ktrnthsnr
+![Mockup](./assets/images/web_ktrnthsnr.jpg "JAK-eats")
+
+

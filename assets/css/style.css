@@ -5,6 +5,14 @@
   margin: 0;
 }
 
+/* @media rule for when reduced browser window change the background color to beige */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: var(--beige);
+  }
+}
+
+
 *,
 *:before,
 *:after {
@@ -35,13 +43,6 @@
 body {
   margin: 50px;
   background-color: var(--siena);
-}
-
-/* @media rule for when reduced browser window change the background color to beige */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: var(--beige);
-  }
 }
 
 
@@ -94,6 +95,7 @@ a {
 
 p {
   font-size: 20px;
+  color: grey;
 }
 
   header nav {
@@ -295,44 +297,47 @@ p {
   }
  
 /* -- image details */
-/*-- cobblestone img -- */
+
 .item-1 {
   margin-left: 10px;
-  background-image: url("../images/streetview.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/*-- cat img -- */
-.item-2 {
-  background-image: url("../images/awakecat.jpg");
-  background-size: cover;
-  background-position: center;
-  color: var(--beige);
-}
-/*-- flower img -- */
-.item-3 {
-  background-image: url("../images/rockflw.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/*-- tent img -- */
-.item-4 {
-  background-image: url("../images/tentviewnw.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/*-- clown fish img -- */
-.item-5 {
-  background-image: url("../images/clownfsh.jpg");
+  background-image: url("../images/InWork.jpg");
   background-size: cover;
   background-position: center;
   color: var(--beige);
 }
 
- .itemsfont {
+.item-2 {
+  background-image: url("../images/JAK-Eats.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--beige);
+}
+
+.item-3 {
+  background-image: url("../images/InWork.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--beige);
+}
+
+.item-4 {
+  background-image: url("../images/InWork.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--beige);
+}
+
+.item-5 {
+  background-image: url("../images/InWork.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--beige);
+}
+
+ .itemsfont { 
     font-size: 20px;
     font-weight: bold;
-    color: var(--beige);
+    color: var(--black);
   }
 
 .item-1 a,
@@ -340,7 +345,7 @@ p {
 .item-3 a,
 .item-4 a,
 .item-5 a {
-  color: var(--beige);
+  color: grey;
   opacity: 1.0;
 }
 

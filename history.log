@@ -43,3 +43,11 @@
     3  git commit -m "added list pseudo-elements"
     4  git push origin master
     5  history >> history.log
+    1  pwd
+    2  ls
+    3  git remote -v
+    4  git add .
+    5  git commit -m "added media rule"
+    6  git push origin master
+    7  history >> history
+    8  history >> history.log
