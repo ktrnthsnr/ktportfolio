@@ -1,15 +1,17 @@
 ﻿# Katarina Thisner's Portfolio
 
+## Website
+* https://ktrnthsnr.github.io/ktportfolio
+
+## GitHub
+* https://github.com/ktrnthsnr/ktportfolio
+
 ## Description
-Portfolio with sample projects
+Portfolio with class projects
 
 ## Built With
 * HTML
 * CSS
-
-## Website
-* https://ktrnthsnr.github.io/ktportfolio
-* https://github.com/ktrnthsnr/ktportfolio
 
 ## Contribution
 ktrnthsnr
