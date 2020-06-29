@@ -314,14 +314,14 @@ p {
 }
 
 .item-3 {
-  background-image: url("../images/InWork.jpg");
+  background-image: url("../images/Techly-KND.jpg");
   background-size: cover;
   background-position: center;
   color: var(--beige);
 }
 
 .item-4 {
-  background-image: url("../images/InWork.jpg");
+  background-image: url("../images/weather-by-city.jpg");
   background-size: cover;
   background-position: center;
   color: var(--beige);
